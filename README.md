@@ -24,25 +24,6 @@ Users can add, view, search, and manage their saved contacts in a clean, respons
 | Axios         | Node.js       | Sequelize (if used) |
 | Bootstrap / Framer Motion | CORS, dotenv | -- |
 
----
-
-## 📁 Folder Structure
-
-contact-book/
-│
-├── client/ # React frontend
-│ ├── public/
-│ └── src/
-│ ├── components/
-│ └── App.js
-│
-├── server/ # Express backend
-│ ├── routes/
-│ └── index.js
-│
-├── .env
-├── .gitignore
-└── README.md
 
 ---
 
@@ -56,34 +37,31 @@ Install dependencies
 
 For frontend:
 
-bash
-Copy
-Edit
+```bash
 cd client
 npm install
-For backend:
 
-bash
-Copy
-Edit
+For backend:
+```bash
 cd ../server
 npm install
+
 Configure environment variables
 Create .env in the server with:
 
-ini
-Copy
-Edit
+
 PORT=3000
 DATABASE_URL=./database.sqlite
 Run the app
 
 bash
 # In one terminal
+```bash
 cd server
 npm start
 
 # In another terminal
+```bash
 cd client
 npm start
 
