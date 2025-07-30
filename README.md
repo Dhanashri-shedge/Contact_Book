@@ -79,8 +79,6 @@ DATABASE_URL=./database.sqlite
 Run the app
 
 bash
-Copy
-Edit
 # In one terminal
 cd server
 npm start
@@ -88,9 +86,6 @@ npm start
 # In another terminal
 cd client
 npm start
-📷 Screenshots
-Add screenshots or a demo video link here (optional)
-You can use loom.com or a GitHub issue to host them.
 
 ✨ Future Improvements
 ✅ Add authentication
