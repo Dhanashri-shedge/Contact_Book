@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(135deg, #f0f8ff, #e6f7ff);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+.navbar {
+  background-color: #007bff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: white;
+}
+
+.nav-link {
+  color: white !important;
+}
